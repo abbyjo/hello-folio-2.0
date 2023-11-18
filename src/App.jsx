@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavBar';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1> My Portfolio </h1>
+    <>
+      <Nav />
+      <main>
+        <Outlet />
+      </main>
+    </>
   )
 }
 
-export default App
+export default App;
