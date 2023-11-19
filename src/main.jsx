@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/Contact',
-        element: <Contact />
+        element: <Contact name = '' email='' message=''/>
       },
       {
         path: '/Resume',
