@@ -2,6 +2,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
+/* Header specific styling */
 h1{
     font-size: 400%;
     font-weight: bold;
@@ -12,6 +13,7 @@ h1{
     font-variant: small-caps;
 }
 
+/* Header and Page titles*/
 h1, h2 {
     font-family: 'Concert One', sans-serif;
     text-align: center;
@@ -21,17 +23,38 @@ h2 {
     padding: 25px;
 }
 
+/* Footer styling */
 footer {
     margin-top:100px;
     padding-bottom: 30px;
 }
-
+/* Nav links and footer styling */
 .nav, footer {
     margin-right: 4%;
     font-size: 120%;
 }
 
+/* Dev Icon styling */
 #avatar {
     border-radius: 15px;
     width: 250px;
 }
+
+.custom-btn{
+    background-color: hotpink;
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* Contact form styling */
+.custom-btn:hover {
+    background-color: #ffb1d8;
+}
+
+.custom-input {
+    width: 500px;
+    font-size: 14px;
+    border-radius: 5px;
+};
+

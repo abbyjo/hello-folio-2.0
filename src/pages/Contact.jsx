@@ -28,24 +28,22 @@ export default function Contact(props) {
   return (
     <>
       <h2>Contact Page</h2>
-      <form onSubmit={formHandler}>
-        <div>
-          <label>Name
-            <input type='text' name='name' value={nameInput} onChange={nameChange} />
-          </label>
+      <form onSubmit={formHandler} className='container' >
+        <div className='m-3 row'>
+          <label className='p-2'>Name</label>
+          <input className='p-2 custom-input' type='text' name='name' value={nameInput} onChange={nameChange} />
         </div>
-        <div>
-          <label>Email
-            <input type='text' name='email' value={emailInput} onChange={emailChange} />
-          </label>
+        <div className='m-3 row'>
+          <label className='p-2'>Email</label>
+          <input className='p-2 custom-input' type='text' name='email' value={emailInput} onChange={emailChange} />
         </div>
-        <div>
-          <label>Message</label>
-          <textarea placeholder="Please leave your message here!" name = 'message' value={messageInput} onChange={messageChange}>
+        <div className='m-3 row'>
+          <label className='p-2'>Message</label>
+          <textarea className='p-2 custom-input' placeholder="Please leave your message here!" name='message' value={messageInput} onChange={messageChange}>
           </textarea>
         </div>
-        <div>
-          <button>Submit</button>
+        <div className='m-5'>
+          <button className='p-2 custom-btn'>Submit</button>
         </div>
       </form>
     </>
