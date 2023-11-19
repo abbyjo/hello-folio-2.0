@@ -1,0 +1,29 @@
+li, li a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Concert One', sans-serif;
+    font-size: 120%
+    
+}
+
+li a:hover{
+    color:#ffb4b0
+}
+
+li a:hover::after{
+    content:'✨'
+}
+.link-on {
+    color:#ff4036;
+}
+
+.link-off{
+    color:#fff2e9
+}
+li a {
+    color: #ff4036;
+}
+
+#nav-bar {
+    background-color: #1e1a19;
+}

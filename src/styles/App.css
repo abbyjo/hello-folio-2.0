@@ -1,20 +1,24 @@
 *{
     font-family: 'Nunito', sans-serif;
 }
-
+body{
+  background-color: #fff2e9;
+}
 /* Header specific styling */
 h1{
     font-size: 400%;
     font-weight: bold;
     padding: 50px;
-    background-image: url('https://images.unsplash.com/photo-1532799044142-bace80c88320?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-color: #ffed87;
+    color:#fff2e9;;
+    background-image: url('https://images.unsplash.com/photo-1609083590460-7b8cc0ca65f8?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: #000000;
+    background-position: bottom;
     background-size: cover;
-    font-variant: small-caps;
+    margin-bottom: 0;
 }
 
 /* Header and Page titles*/
-h1, h2 {
+h1, h2{
     font-family: 'Concert One', sans-serif;
     text-align: center;
 }
@@ -41,7 +45,7 @@ footer {
 }
 
 .custom-btn{
-    background-color: hotpink;
+    background-color: #ff4036;
     color:white;
     border-radius: 10px;
     border-style: none;
