@@ -5,7 +5,7 @@ function NavBar() {
     const currentPage = useLocation().pathname;
 
     return (
-     <ul className="nav nav-tabs">
+     <ul className="nav d-flex justify-content-around">
       <li className="nav-item">
         <Link
           to="/"
