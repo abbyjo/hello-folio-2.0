@@ -27,7 +27,7 @@ export default function Contact(props) {
 
   return (
     <>
-      <h2>Contact Page</h2>
+      <h2>Contact Me</h2>
       <form onSubmit={formHandler} className='container' >
         <div className='m-3 row'>
           <label className='p-2'>Name</label>
