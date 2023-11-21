@@ -15,6 +15,7 @@ li a:hover::after{
 }
 .link-on {
     color:#ff4036;
+    text-decoration: none;
 }
 
 .link-off{
