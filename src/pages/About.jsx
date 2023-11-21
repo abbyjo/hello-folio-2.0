@@ -7,11 +7,11 @@ export default function About() {
         <img id= "avatar" src="./src/assets/avatar.png"></img>
       </div>
       <div className= 'col m-5 p-3'>
-        <p>
-          Hello, my name is Abby!
+        <h4>
+          Hello, my name is Abby!<br />
           I'm an artist and office worker shifting careers into web development.
           Learning new things and bringing ideas to life are what I'm most passionate about!✨
-        </p>
+        </h4>
       </div>
       </div>
     </div>
