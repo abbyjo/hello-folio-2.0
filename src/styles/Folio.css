@@ -1,0 +1,54 @@
+.folio-img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.custom-label {
+    background-color: #ff4036;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 15px;
+}
+
+.folio-div {
+    position: relative;
+    width: 50%;
+}
+
+/* Image container + label hover effects */
+.custom-label:hover {
+    color: #1e1a19
+}
+a {
+    text-decoration: none;
+}
+.folio-div:hover .folio-img {
+    opacity: 0.2;
+}
+
+.folio-div:hover .middle {
+    opacity: 1;
+}
+
+
+/* GitHub icon hover effects */
+.git-icon {
+    width: 40px;
+    transition: width 1s;
+}
+
+.git-icon:hover{
+    width: 50px;
+}
