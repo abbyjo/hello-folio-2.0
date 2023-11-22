@@ -36,7 +36,7 @@ export default function Portfolio() {
         <Project
           title="Project 6"
           github=""
-          src="../src/assets/placeholder.jpg"
+          src="/images/placeholder.jpg"
         />
       </div>
 

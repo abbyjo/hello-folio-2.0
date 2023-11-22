@@ -4,7 +4,7 @@ export default function About() {
       <h2>About Me</h2>
       <div className="row">
       <div className= 'col-sm-3 mx-5 p-3'>
-        <img id= "avatar" src="./src/assets/avatar.png"></img>
+        <img id= "avatar" src="/images/avatar.png"></img>
       </div>
       <div className= 'col m-5 p-3'>
         <h4>

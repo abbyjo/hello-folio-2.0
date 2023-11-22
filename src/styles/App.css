@@ -10,7 +10,7 @@ h1{
     font-weight: bold;
     padding: 50px;
     color:#fff2e9;;
-    background-image: url('../assets/header.jpg');
+    background-image: url('/images/header.jpg');
     background-color: #000000;
     background-position: bottom;
     background-size: cover;
