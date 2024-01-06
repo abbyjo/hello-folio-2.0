@@ -22,14 +22,14 @@ function NavBar() {
         Portfolio
         </Link>
       </li>
-      <li className="pt-3">
+      {/* <li className="pt-3">
         <Link
           to="/Contact"
           className= {currentPage === '/Contact' ? 'link-on' : 'link-off'}
         >
         Contact
         </Link>
-      </li>
+      </li> */}
       <li className="pt-3">
         <Link
           to="/Resume"

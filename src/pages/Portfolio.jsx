@@ -6,6 +6,14 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
       <div className="row">
         <Project
+          title="myShelf"
+          github="https://github.com/abbyjo/my-shelf"
+          link="https://my-comic-shelf.onrender.com/"
+          src="https://camo.githubusercontent.com/3f3ec753e5f374173b0d1d3bb4068009667278ceaa59b428c145b489aab573d5/68747470733a2f2f692e6779617a6f2e636f6d2f35666131623233386537363564643861393964626164613732373939636236612e6a7067"
+        />
+      </div>
+      <div className="row">
+        <Project
           title="Book Nite"
           github="https://github.com/abbyjo/book-nite"
           link="https://abbyjo.github.io/book-nite/"
@@ -32,14 +40,6 @@ export default function Portfolio() {
           src="https://github.com/abbyjo/quiz-me/raw/main/assets/images/screenshot.png"
         />
       </div>
-      <div className="row">
-        <Project
-          title="Project 6"
-          github=""
-          src="/images/placeholder.jpg"
-        />
-      </div>
-
     </div>
   );
 }
